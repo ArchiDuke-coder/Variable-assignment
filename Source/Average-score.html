@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính điểm trung bình</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    //Nhập điểm và đổi sang số
+    let a = prompt('Nhập điểm Vật lý: ');
+    let b = prompt('Nhập điểm Hóa học: ');
+    let c = prompt('Nhập điểm Sinh học: ');
+
+    a = parseFloat(a);
+    b = parseFloat(b);
+    c = parseFloat(c);
+    // tính và in kết quả
+    let sum = a+b+c;
+    let average = sum/3;
+    document.write('Tổng điểm 3 môn: ' + sum.toFixed(2) +"<br>");
+    document.write('Điểm trung bình: ' + average.toFixed(2));
+</script>
